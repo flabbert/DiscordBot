@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+        <RootNamespace>DiscordBot.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+    <PropertyGroup>
+        <NetCoreTargetFramework
+            Condition=" '$(NetCoreTargetFramework)' == '' ">net10.0</NetCoreTargetFramework>
+    </PropertyGroup>
+</Project>
